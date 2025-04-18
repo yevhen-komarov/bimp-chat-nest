@@ -2,6 +2,7 @@
   "singleQuote": true,
   "trailingComma": "all",
   "endOfLine": "auto",
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
   "importOrder": ["^@nestjs", "<THIRD_PARTY_MODULES>", "^([.]|src)"],
   "importOrderParserPlugins": ["typescript", "decorators-legacy"],
   "importOrderSeparation": true,
