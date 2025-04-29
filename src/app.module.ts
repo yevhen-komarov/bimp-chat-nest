@@ -19,9 +19,7 @@ import { MessageModule } from './message/message.module';
       type: 'postgres',
       url: process.env.DATABASE_URL,
       entities: [User, Message, MessageText, MessageFile],
-      extra: {
-        charset: 'utf8mb4_unicode_ci',
-      },
+      extra: { charset: 'utf8mb4_unicode_ci' },
       synchronize: true,
       logging: false,
     }),
